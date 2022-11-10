@@ -1,6 +1,4 @@
-# code-challenge
 
-```js
 console.info('1 - Non-Constructible Change');
 
 function getMinChange ( coins ) {
@@ -44,5 +42,3 @@ console.assert( JSON.stringify( squareArray( [1, 2, 3, 5, 6, 8, 9] ) ) == JSON.s
 console.assert( JSON.stringify( squareArray( [-2, -1] ) ) == JSON.stringify( [1, 4] ), 'it should equal [1, 4]' );
 console.assert( JSON.stringify( squareArray( [-10, -5, 0, 5, 10] ) ) == JSON.stringify( [0, 25, 25, 100, 100] ), 'it should equal [0, 25, 25, 100, 100]');
 console.info('Complexity: O(n)');
-
-```
